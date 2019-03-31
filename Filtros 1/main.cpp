@@ -69,14 +69,7 @@ int main( int argc, char** argv )
         }
 
     }
-    /*for (int i = m1.rows-1; i >=0; i--){
-        for (int j = m1.cols-1; j >=0 ; j--){
-        ///Escalar
-            y = floor(j*y_ratio);
-            x = floor(i*x_ratio);
-            m3.at<uchar>(j*2,i*2) = m1.at<uchar>(y,x);
-        }
-    }*/
+
     namedWindow( source_window, CV_WINDOW_AUTOSIZE );
     imshow( source_window,m3 );
 
